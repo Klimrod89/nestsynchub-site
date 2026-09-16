@@ -99,3 +99,70 @@ footer a {
         padding: 64px 0 48px;
     }
 }
+
+.eyebrow {
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6b7280;
+}
+
+.hero-copy {
+    max-width: 720px;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 28px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.button-primary {
+    background: #111827;
+    color: #ffffff;
+}
+
+.button-secondary {
+    border: 1px solid #d1d5db;
+    color: #111827;
+    background: #ffffff;
+}
+
+.section-muted {
+    background: #f9fafb;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 28px;
+}
+
+.card {
+    padding: 24px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 800px) {
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+}
